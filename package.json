@@ -24,7 +24,7 @@
     "dist": "node ./hydra.config.js"
   },
   "exports": {
-    "./": "./dist/packs/*"
+    "./*": "./dist/packs/*"
   },
   "devDependencies": {
     "chalk": "^4.1.1",
