@@ -1,0 +1,8 @@
+.idea/
+src/
+__*__/
+coverage/
+*.config.*
+.git*
+*.md
+*.log
