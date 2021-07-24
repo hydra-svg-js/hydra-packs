@@ -1,33 +1,32 @@
 {
-  "name": "hydra-packs",
-  "version": "0.0.2",
-  "license": "MIT",
-  "author": "Michael Garcia",
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "hydra-svg",
-    "hyrdra",
-    "hydrate",
-    "svg",
-    "icon",
-    "icons",
-    "heroicons",
-    "zondicons",
-    "fontawesome",
-    "bootstrap",
-    "feather"
-  ],
-  "scripts": {
-    "prepublishOnly": "yarn dist",
-    "dist": "node ./hydra.config.js"
-  },
-  "exports": {
-    "./*": "./dist/packs/*"
-  },
-  "devDependencies": {
-    "chalk": "^4.1.1",
-    "hydra-svg-js": "^0.0.60"
-  }
+	"name": "hydra-packs",
+	"version": "0.0.2",
+	"license": "MIT",
+	"author": "Michael Garcia",
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"hydra-svg",
+		"hyrdra",
+		"hydrate",
+		"svg",
+		"icon",
+		"icons",
+		"heroicons",
+		"zondicons",
+		"fontawesome",
+		"bootstrap",
+		"feather"
+	],
+	"scripts": {
+		"prepublishOnly": "yarn dist",
+		"dist": "node ./hydra.config.js"
+	},
+	"exports": {
+		"./*": "./dist/packs/*"
+	},
+	"devDependencies": {
+		"hydra-svg-js": "^0.0.66"
+	}
 }
