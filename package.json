@@ -24,9 +24,9 @@
 		"dist": "node ./hydra.config.js"
 	},
 	"exports": {
-		"./*": "./dist/packs/*"
+		"./*": "./dist/*"
 	},
 	"devDependencies": {
-		"hydra-svg-js": "^0.0.66"
+		"hydra-svg-js": "^0.0.76"
 	}
 }
