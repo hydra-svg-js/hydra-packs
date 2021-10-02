@@ -1,6 +1,6 @@
 {
 	"name": "hydra-packs",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"license": "MIT",
 	"author": "Michael Garcia",
 	"files": [
@@ -27,6 +27,6 @@
 		"./*": "./dist/*"
 	},
 	"devDependencies": {
-		"hydra-svg-js": "^0.0.76"
+		"hydra-svg-js": "^0.0.86"
 	}
 }
